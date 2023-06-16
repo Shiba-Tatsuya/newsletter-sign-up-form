@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Kanit:wght@300;500;700&family=Lora:wght@400;500;600;700&family=Montserrat+Alternates:ital,wght@0,400;0,700;0,800;1,700&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:ital,wght@0,400;0,700;1,700&family=Space+Grotesk:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.illustraiton {
+    width: 100%;
+
+}
+
+.illustraiton #mobile {
+    width: 100%;
+}
+
+.illustraiton #desktop {
+    display: none;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sign-up {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: .5em;
+    margin: 1em;
+}
+
+.info p {
+    display: flex;
+    margin: 1em 0;
+    gap: .5em;
+}
+
+.input {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input label {
+    font-weight: 700;
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.error-msg{
+    color: rgb(255, 59, 45);
+    font-weight: 500;
+    display: none;
+}
+
+.input input {
+    height: 55px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 1em;
+}
+
+
+.input button {
+    font-weight: 700;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(0, 4, 56);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+input:placeholder-shown {
+    padding: 1em;
+}
+
+
+
+.thanks {
+    display: none;
+    flex-direction: column;
+    margin: 7em 2em;
+    gap: 1.5em;
+
+}
+
+.thanks img {
+    width: 20%;
+}
+
+.thanks h1 {
+    font-size: 45px;
+}
+
+.thanks p span {
+   
+    font-weight: bold;
+}
+
+.thanks button {
+    margin-top: 25rem;
+    height: 47px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(0, 4, 56);
+    color: white;
+    justify-self: flex-end;
+    font-weight: bold;
+    font-size: 1.2em;
+    align-self: center;
+
+}
+
+button:hover{
+    background-color: hsla(4, 100%, 67%, 1);
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 125, 113) ;
+  transform: translateY(-0.25em);
+    
+}
+ button:active{
+    background-color: hsla(4, 100%, 67%, 1);   
+}
+
+@media screen and (min-width:720px) {
+
+    body{
+        background: rgb(33, 33, 46);
+    }
+
+    #mobile {
+        display: none;
+    }
+
+   
+    .illustraiton {
+        width: 50%;
+    }
+    .illustraiton #desktop {
+        display: block;
+        width:100%;
+    }
+
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row-reverse;
+        background: white;
+        width: 50%;
+        border-radius: 20px;
+        padding:1em;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        max-height: 80vh;
+       
+    }
+
+   .sign-up{
+    height: 100%;
+    gap: .4em;
+   }
+
+    .heading h1{
+        font-size:3rem;
+    }
+
+    .thanks {
+
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        padding: 4em;
+        background: white;
+    }
+
+    .thanks h1 {
+        font-size: 60px;
+    }
+
+    .thanks button {
+        margin: 0;
+        height: 60px;
+    }
+    
+
+
+}
