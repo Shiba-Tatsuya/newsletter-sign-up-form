@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Shiba-Tatsuya/newsletter)
-- Live Site URL: [GitHub Page](https://shiba-tatsuya.github.io/newsletter/)
+- Solution URL: [GitHub](https://github.com/Shiba-Tatsuya/newsletter-sign-up-form)
+- Live Site URL: [GitHub Page](https://shiba-tatsuya.github.io/newsletter-sign-up-form/)
 
 
 ### Built with
@@ -55,5 +55,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [RANE JATIN](https://github.com/BarrosLucasJavier)
+- GitHub - [RANE JATIN](https://github.com/Shiba-Tatsuya)
 - Frontend Mentor - [Rane Jatin](https://www.frontendmentor.io/profile/Shiba-Tatsuya)
